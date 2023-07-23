@@ -1,0 +1,2240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <lib desc="#HDL-IP" name="12"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1020,820)" name="Splitter">
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1060,640)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1080,690)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1160,130)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1400,1190)" name="Splitter">
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1460,860)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="7"/>
+      <a name="incoming" val="7"/>
+    </comp>
+    <comp lib="0" loc="(1470,810)" name="Splitter">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1580,680)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1610,960)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1620,890)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(220,450)" name="Clock"/>
+    <comp lib="0" loc="(2490,210)" name="Ground">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(3430,890)" name="Splitter">
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(3470,560)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="24"/>
+      <a name="incoming" val="24"/>
+    </comp>
+    <comp lib="0" loc="(460,270)" name="Power"/>
+    <comp lib="0" loc="(460,310)" name="Ground">
+      <a name="width" val="31"/>
+    </comp>
+    <comp lib="0" loc="(540,270)" name="Splitter">
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="1"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="facing" val="west"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(600,950)" name="Splitter">
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(640,620)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="24"/>
+      <a name="incoming" val="24"/>
+    </comp>
+    <comp lib="1" loc="(1930,560)" name="OR Gate"/>
+    <comp lib="2" loc="(1810,470)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(1890,360)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(2560,200)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(2560,260)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(2650,170)" name="Multiplexer">
+      <a name="select" val="2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(2650,270)" name="Multiplexer">
+      <a name="select" val="2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(2970,600)" name="Multiplexer">
+      <a name="select" val="2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(310,360)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(4440,420)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(3570,600)" name="RAM">
+      <a name="addrWidth" val="24"/>
+      <a name="appearance" val="evolution"/>
+      <a name="dataWidth" val="32"/>
+      <a name="label" val="data_mem"/>
+      <a name="labelvisible" val="true"/>
+      <a name="trigger" val="high"/>
+      <a name="type" val="nonvolatile"/>
+    </comp>
+    <comp lib="4" loc="(700,400)" name="ROM">
+      <a name="addrWidth" val="24"/>
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="contents">addr/data: 24 32
+202123 4*0 20056f 2583 350593 1111
+</a>
+      <a name="dataWidth" val="32"/>
+      <a name="label" val="Instruction_mem"/>
+      <a name="labelvisible" val="true"/>
+    </comp>
+    <comp lib="5" loc="(1100,420)" name="Button"/>
+    <comp lib="5" loc="(220,490)" name="Button"/>
+    <comp loc="(1230,280)" name="IF_ID">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1640,380)" name="Reg_file">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1650,750)" name="Imm_gen">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1750,1060)" name="RegAdress_Validator">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1940,60)" name="Hazard_unit">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(2070,860)" name="Control">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(2400,200)" name="ID_EX">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(2760,590)" name="ALU_ctrl">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(2950,200)" name="ALUc"/>
+    <comp loc="(2980,90)" name="Somador">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(2990,800)" name="Forwarding_unit">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(3340,150)" name="EX_MEM">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(3610,60)" name="Branch_ctrl">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(4200,150)" name="MEM_WB">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(610,460)" name="PC">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(870,220)" name="Somador">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(1000,470)" to="(1000,820)"/>
+    <wire from="(1000,470)" to="(1230,470)"/>
+    <wire from="(1000,820)" to="(1020,820)"/>
+    <wire from="(1010,280)" to="(1010,290)"/>
+    <wire from="(1040,700)" to="(1060,700)"/>
+    <wire from="(1040,710)" to="(1060,710)"/>
+    <wire from="(1040,720)" to="(1060,720)"/>
+    <wire from="(1040,730)" to="(1060,730)"/>
+    <wire from="(1040,740)" to="(1060,740)"/>
+    <wire from="(1060,440)" to="(1060,640)"/>
+    <wire from="(1060,440)" to="(1340,440)"/>
+    <wire from="(1080,690)" to="(1250,690)"/>
+    <wire from="(1100,420)" to="(1420,420)"/>
+    <wire from="(1160,130)" to="(1350,130)"/>
+    <wire from="(1210,1360)" to="(4140,1360)"/>
+    <wire from="(1210,480)" to="(1210,1360)"/>
+    <wire from="(1210,480)" to="(1420,480)"/>
+    <wire from="(1230,280)" to="(1750,280)"/>
+    <wire from="(1230,300)" to="(1250,300)"/>
+    <wire from="(1230,320)" to="(1680,320)"/>
+    <wire from="(1230,340)" to="(1760,340)"/>
+    <wire from="(1230,380)" to="(1230,470)"/>
+    <wire from="(1230,380)" to="(1250,380)"/>
+    <wire from="(1230,470)" to="(1230,560)"/>
+    <wire from="(1230,560)" to="(1400,560)"/>
+    <wire from="(1240,1350)" to="(4230,1350)"/>
+    <wire from="(1240,400)" to="(1240,1350)"/>
+    <wire from="(1240,400)" to="(1420,400)"/>
+    <wire from="(1250,300)" to="(1250,380)"/>
+    <wire from="(1250,460)" to="(1250,690)"/>
+    <wire from="(1250,460)" to="(1330,460)"/>
+    <wire from="(1280,1330)" to="(2440,1330)"/>
+    <wire from="(1280,200)" to="(1280,380)"/>
+    <wire from="(1280,200)" to="(2170,200)"/>
+    <wire from="(1280,380)" to="(1420,380)"/>
+    <wire from="(1280,500)" to="(1280,1330)"/>
+    <wire from="(1280,500)" to="(1380,500)"/>
+    <wire from="(1330,1220)" to="(1520,1220)"/>
+    <wire from="(1330,460)" to="(1330,1220)"/>
+    <wire from="(1330,460)" to="(1420,460)"/>
+    <wire from="(1340,1210)" to="(1500,1210)"/>
+    <wire from="(1340,440)" to="(1340,1210)"/>
+    <wire from="(1340,440)" to="(1380,440)"/>
+    <wire from="(1350,130)" to="(1350,490)"/>
+    <wire from="(1350,490)" to="(1420,490)"/>
+    <wire from="(1380,120)" to="(1380,440)"/>
+    <wire from="(1380,120)" to="(1720,120)"/>
+    <wire from="(1380,440)" to="(1390,440)"/>
+    <wire from="(1380,500)" to="(1380,520)"/>
+    <wire from="(1380,520)" to="(1420,520)"/>
+    <wire from="(1390,100)" to="(1390,440)"/>
+    <wire from="(1390,100)" to="(1720,100)"/>
+    <wire from="(1390,440)" to="(1420,440)"/>
+    <wire from="(1400,560)" to="(1400,630)"/>
+    <wire from="(1400,630)" to="(1400,1190)"/>
+    <wire from="(1400,630)" to="(1600,630)"/>
+    <wire from="(1420,1000)" to="(1520,1000)"/>
+    <wire from="(1420,1010)" to="(1530,1010)"/>
+    <wire from="(1420,1170)" to="(2150,1170)"/>
+    <wire from="(1420,490)" to="(1420,500)"/>
+    <wire from="(1420,820)" to="(1420,870)"/>
+    <wire from="(1420,820)" to="(1450,820)"/>
+    <wire from="(1420,870)" to="(1440,870)"/>
+    <wire from="(1420,880)" to="(1430,880)"/>
+    <wire from="(1420,890)" to="(1440,890)"/>
+    <wire from="(1420,900)" to="(1440,900)"/>
+    <wire from="(1420,910)" to="(1440,910)"/>
+    <wire from="(1420,920)" to="(1440,920)"/>
+    <wire from="(1420,930)" to="(1440,930)"/>
+    <wire from="(1420,940)" to="(1460,940)"/>
+    <wire from="(1420,950)" to="(1470,950)"/>
+    <wire from="(1420,960)" to="(1480,960)"/>
+    <wire from="(1420,970)" to="(1490,970)"/>
+    <wire from="(1420,980)" to="(1500,980)"/>
+    <wire from="(1420,990)" to="(1510,990)"/>
+    <wire from="(1430,730)" to="(1430,750)"/>
+    <wire from="(1430,730)" to="(1600,730)"/>
+    <wire from="(1430,830)" to="(1430,880)"/>
+    <wire from="(1430,830)" to="(1450,830)"/>
+    <wire from="(1430,880)" to="(1440,880)"/>
+    <wire from="(1460,860)" to="(1660,860)"/>
+    <wire from="(1460,900)" to="(1460,940)"/>
+    <wire from="(1460,900)" to="(1600,900)"/>
+    <wire from="(1470,810)" to="(1750,810)"/>
+    <wire from="(1470,910)" to="(1470,950)"/>
+    <wire from="(1470,910)" to="(1600,910)"/>
+    <wire from="(1480,920)" to="(1480,960)"/>
+    <wire from="(1480,920)" to="(1600,920)"/>
+    <wire from="(1490,930)" to="(1490,970)"/>
+    <wire from="(1490,930)" to="(1600,930)"/>
+    <wire from="(1500,1060)" to="(1500,1210)"/>
+    <wire from="(1500,1060)" to="(1530,1060)"/>
+    <wire from="(1500,940)" to="(1500,980)"/>
+    <wire from="(1500,940)" to="(1600,940)"/>
+    <wire from="(1510,1030)" to="(1510,1100)"/>
+    <wire from="(1510,1030)" to="(1660,1030)"/>
+    <wire from="(1510,1100)" to="(1530,1100)"/>
+    <wire from="(1510,970)" to="(1510,990)"/>
+    <wire from="(1510,970)" to="(1590,970)"/>
+    <wire from="(1520,1080)" to="(1520,1220)"/>
+    <wire from="(1520,1080)" to="(1530,1080)"/>
+    <wire from="(1520,980)" to="(1520,1000)"/>
+    <wire from="(1520,980)" to="(1590,980)"/>
+    <wire from="(1530,990)" to="(1530,1010)"/>
+    <wire from="(1530,990)" to="(1590,990)"/>
+    <wire from="(1580,680)" to="(1640,680)"/>
+    <wire from="(1600,630)" to="(1600,730)"/>
+    <wire from="(1610,140)" to="(1720,140)"/>
+    <wire from="(1610,20)" to="(1610,140)"/>
+    <wire from="(1610,20)" to="(3620,20)"/>
+    <wire from="(1610,960)" to="(1730,960)"/>
+    <wire from="(1620,790)" to="(1620,890)"/>
+    <wire from="(1620,790)" to="(1700,790)"/>
+    <wire from="(1640,380)" to="(1650,380)"/>
+    <wire from="(1640,400)" to="(1830,400)"/>
+    <wire from="(1640,420)" to="(1640,680)"/>
+    <wire from="(1650,360)" to="(1650,380)"/>
+    <wire from="(1650,360)" to="(1740,360)"/>
+    <wire from="(1650,750)" to="(1660,750)"/>
+    <wire from="(1660,220)" to="(1660,750)"/>
+    <wire from="(1660,220)" to="(2180,220)"/>
+    <wire from="(1660,860)" to="(1660,1030)"/>
+    <wire from="(1660,860)" to="(1850,860)"/>
+    <wire from="(1680,320)" to="(1680,600)"/>
+    <wire from="(1680,600)" to="(1880,600)"/>
+    <wire from="(1700,170)" to="(2440,170)"/>
+    <wire from="(1700,320)" to="(1700,790)"/>
+    <wire from="(1700,320)" to="(2180,320)"/>
+    <wire from="(1700,80)" to="(1700,170)"/>
+    <wire from="(1700,80)" to="(1720,80)"/>
+    <wire from="(1710,180)" to="(2410,180)"/>
+    <wire from="(1710,60)" to="(1710,180)"/>
+    <wire from="(1710,60)" to="(1720,60)"/>
+    <wire from="(1730,300)" to="(1730,900)"/>
+    <wire from="(1730,300)" to="(2180,300)"/>
+    <wire from="(1730,900)" to="(1730,960)"/>
+    <wire from="(1730,900)" to="(1850,900)"/>
+    <wire from="(1740,1040)" to="(1750,1040)"/>
+    <wire from="(1740,360)" to="(1740,480)"/>
+    <wire from="(1740,360)" to="(1840,360)"/>
+    <wire from="(1740,480)" to="(1780,480)"/>
+    <wire from="(1740,520)" to="(1740,1040)"/>
+    <wire from="(1740,520)" to="(2180,520)"/>
+    <wire from="(1750,1040)" to="(1750,1060)"/>
+    <wire from="(1750,1080)" to="(1760,1080)"/>
+    <wire from="(1750,280)" to="(1750,460)"/>
+    <wire from="(1750,280)" to="(1820,280)"/>
+    <wire from="(1750,460)" to="(1780,460)"/>
+    <wire from="(1750,720)" to="(1750,810)"/>
+    <wire from="(1750,720)" to="(2170,720)"/>
+    <wire from="(1760,340)" to="(1760,620)"/>
+    <wire from="(1760,620)" to="(1890,620)"/>
+    <wire from="(1760,800)" to="(1760,1080)"/>
+    <wire from="(1760,800)" to="(1950,800)"/>
+    <wire from="(1790,1130)" to="(2080,1130)"/>
+    <wire from="(1790,490)" to="(1790,1130)"/>
+    <wire from="(1810,470)" to="(2030,470)"/>
+    <wire from="(1820,1110)" to="(2070,1110)"/>
+    <wire from="(1820,280)" to="(1820,370)"/>
+    <wire from="(1820,370)" to="(1860,370)"/>
+    <wire from="(1820,490)" to="(1820,1110)"/>
+    <wire from="(1820,490)" to="(1870,490)"/>
+    <wire from="(1830,400)" to="(1830,440)"/>
+    <wire from="(1830,440)" to="(1920,440)"/>
+    <wire from="(1830,770)" to="(1830,880)"/>
+    <wire from="(1830,770)" to="(1960,770)"/>
+    <wire from="(1830,880)" to="(1850,880)"/>
+    <wire from="(1840,350)" to="(1840,360)"/>
+    <wire from="(1840,350)" to="(1860,350)"/>
+    <wire from="(1870,380)" to="(1870,490)"/>
+    <wire from="(1870,500)" to="(1870,540)"/>
+    <wire from="(1870,500)" to="(1940,500)"/>
+    <wire from="(1870,540)" to="(1880,540)"/>
+    <wire from="(1880,580)" to="(1880,600)"/>
+    <wire from="(1890,360)" to="(1900,360)"/>
+    <wire from="(1890,600)" to="(1890,620)"/>
+    <wire from="(1890,600)" to="(2180,600)"/>
+    <wire from="(1900,240)" to="(1900,360)"/>
+    <wire from="(1900,240)" to="(2180,240)"/>
+    <wire from="(1920,260)" to="(1920,440)"/>
+    <wire from="(1920,260)" to="(2180,260)"/>
+    <wire from="(1930,560)" to="(2180,560)"/>
+    <wire from="(1940,100)" to="(1960,100)"/>
+    <wire from="(1940,120)" to="(1940,150)"/>
+    <wire from="(1940,150)" to="(1940,230)"/>
+    <wire from="(1940,150)" to="(2140,150)"/>
+    <wire from="(1940,230)" to="(1940,500)"/>
+    <wire from="(1940,30)" to="(1940,60)"/>
+    <wire from="(1940,80)" to="(1950,80)"/>
+    <wire from="(1950,40)" to="(1950,80)"/>
+    <wire from="(1950,790)" to="(1950,800)"/>
+    <wire from="(1950,790)" to="(2180,790)"/>
+    <wire from="(1960,100)" to="(1960,770)"/>
+    <wire from="(2030,280)" to="(2030,470)"/>
+    <wire from="(2030,280)" to="(2180,280)"/>
+    <wire from="(2050,340)" to="(2050,840)"/>
+    <wire from="(2050,340)" to="(2180,340)"/>
+    <wire from="(2050,840)" to="(2070,840)"/>
+    <wire from="(2060,360)" to="(2060,830)"/>
+    <wire from="(2060,360)" to="(2180,360)"/>
+    <wire from="(2060,830)" to="(2080,830)"/>
+    <wire from="(2070,1000)" to="(2160,1000)"/>
+    <wire from="(2070,1020)" to="(2080,1020)"/>
+    <wire from="(2070,1040)" to="(2070,1110)"/>
+    <wire from="(2070,380)" to="(2070,820)"/>
+    <wire from="(2070,380)" to="(2180,380)"/>
+    <wire from="(2070,820)" to="(2090,820)"/>
+    <wire from="(2070,840)" to="(2070,860)"/>
+    <wire from="(2070,880)" to="(2080,880)"/>
+    <wire from="(2070,900)" to="(2090,900)"/>
+    <wire from="(2070,920)" to="(2100,920)"/>
+    <wire from="(2070,940)" to="(2110,940)"/>
+    <wire from="(2070,960)" to="(2130,960)"/>
+    <wire from="(2070,980)" to="(2140,980)"/>
+    <wire from="(2080,1020)" to="(2080,1130)"/>
+    <wire from="(2080,400)" to="(2080,810)"/>
+    <wire from="(2080,400)" to="(2180,400)"/>
+    <wire from="(2080,810)" to="(2100,810)"/>
+    <wire from="(2080,830)" to="(2080,880)"/>
+    <wire from="(2090,420)" to="(2090,800)"/>
+    <wire from="(2090,420)" to="(2180,420)"/>
+    <wire from="(2090,800)" to="(2110,800)"/>
+    <wire from="(2090,820)" to="(2090,900)"/>
+    <wire from="(2100,810)" to="(2100,920)"/>
+    <wire from="(2110,440)" to="(2110,780)"/>
+    <wire from="(2110,440)" to="(2180,440)"/>
+    <wire from="(2110,780)" to="(2130,780)"/>
+    <wire from="(2110,800)" to="(2110,940)"/>
+    <wire from="(2120,460)" to="(2120,770)"/>
+    <wire from="(2120,460)" to="(2180,460)"/>
+    <wire from="(2120,770)" to="(2140,770)"/>
+    <wire from="(2130,500)" to="(2130,760)"/>
+    <wire from="(2130,500)" to="(2180,500)"/>
+    <wire from="(2130,760)" to="(2150,760)"/>
+    <wire from="(2130,780)" to="(2130,960)"/>
+    <wire from="(2140,480)" to="(2140,750)"/>
+    <wire from="(2140,480)" to="(2180,480)"/>
+    <wire from="(2140,60)" to="(2140,150)"/>
+    <wire from="(2140,60)" to="(3030,60)"/>
+    <wire from="(2140,750)" to="(2160,750)"/>
+    <wire from="(2140,770)" to="(2140,980)"/>
+    <wire from="(2150,760)" to="(2150,1170)"/>
+    <wire from="(2160,540)" to="(2160,730)"/>
+    <wire from="(2160,540)" to="(2180,540)"/>
+    <wire from="(2160,730)" to="(2180,730)"/>
+    <wire from="(2160,750)" to="(2160,1000)"/>
+    <wire from="(2170,200)" to="(2180,200)"/>
+    <wire from="(2170,580)" to="(2170,720)"/>
+    <wire from="(2170,580)" to="(2180,580)"/>
+    <wire from="(2170,70)" to="(2170,200)"/>
+    <wire from="(2170,70)" to="(3010,70)"/>
+    <wire from="(2180,540)" to="(2190,540)"/>
+    <wire from="(2180,560)" to="(2190,560)"/>
+    <wire from="(2180,730)" to="(2180,790)"/>
+    <wire from="(220,450)" to="(250,450)"/>
+    <wire from="(220,490)" to="(390,490)"/>
+    <wire from="(2400,200)" to="(2470,200)"/>
+    <wire from="(2400,220)" to="(2430,220)"/>
+    <wire from="(2400,240)" to="(2460,240)"/>
+    <wire from="(2400,260)" to="(2420,260)"/>
+    <wire from="(2400,280)" to="(2450,280)"/>
+    <wire from="(2400,300)" to="(2440,300)"/>
+    <wire from="(2400,320)" to="(3060,320)"/>
+    <wire from="(2400,340)" to="(2540,340)"/>
+    <wire from="(2400,360)" to="(2410,360)"/>
+    <wire from="(2400,380)" to="(3080,380)"/>
+    <wire from="(2400,400)" to="(3090,400)"/>
+    <wire from="(2400,420)" to="(2500,420)"/>
+    <wire from="(2400,440)" to="(2530,440)"/>
+    <wire from="(2400,460)" to="(2520,460)"/>
+    <wire from="(2400,480)" to="(2510,480)"/>
+    <wire from="(2400,500)" to="(2430,500)"/>
+    <wire from="(2400,520)" to="(2420,520)"/>
+    <wire from="(2400,540)" to="(2680,540)"/>
+    <wire from="(2400,550)" to="(2400,560)"/>
+    <wire from="(2400,560)" to="(2400,680)"/>
+    <wire from="(2400,680)" to="(2880,680)"/>
+    <wire from="(2410,180)" to="(2410,360)"/>
+    <wire from="(2410,360)" to="(3050,360)"/>
+    <wire from="(2420,520)" to="(2420,860)"/>
+    <wire from="(2420,860)" to="(2770,860)"/>
+    <wire from="(2420,90)" to="(2420,260)"/>
+    <wire from="(2420,90)" to="(2760,90)"/>
+    <wire from="(2430,190)" to="(2430,220)"/>
+    <wire from="(2430,190)" to="(2530,190)"/>
+    <wire from="(2430,500)" to="(2430,840)"/>
+    <wire from="(2430,840)" to="(2770,840)"/>
+    <wire from="(2440,1330)" to="(2460,1330)"/>
+    <wire from="(2440,170)" to="(2440,300)"/>
+    <wire from="(2440,300)" to="(2990,300)"/>
+    <wire from="(2440,560)" to="(2440,1330)"/>
+    <wire from="(2440,560)" to="(2580,560)"/>
+    <wire from="(2450,280)" to="(2450,610)"/>
+    <wire from="(2450,610)" to="(2540,610)"/>
+    <wire from="(2460,1330)" to="(3440,1330)"/>
+    <wire from="(2460,240)" to="(2460,350)"/>
+    <wire from="(2460,240)" to="(2510,240)"/>
+    <wire from="(2460,350)" to="(2910,350)"/>
+    <wire from="(2460,570)" to="(2460,1330)"/>
+    <wire from="(2460,570)" to="(2570,570)"/>
+    <wire from="(2470,100)" to="(2470,200)"/>
+    <wire from="(2470,100)" to="(2760,100)"/>
+    <wire from="(2470,200)" to="(2470,270)"/>
+    <wire from="(2470,270)" to="(2530,270)"/>
+    <wire from="(2490,210)" to="(2530,210)"/>
+    <wire from="(250,400)" to="(250,450)"/>
+    <wire from="(250,400)" to="(590,400)"/>
+    <wire from="(250,450)" to="(280,450)"/>
+    <wire from="(2500,230)" to="(2500,420)"/>
+    <wire from="(2500,230)" to="(2540,230)"/>
+    <wire from="(2510,240)" to="(2510,250)"/>
+    <wire from="(2510,250)" to="(2530,250)"/>
+    <wire from="(2510,480)" to="(2510,500)"/>
+    <wire from="(2510,500)" to="(2520,500)"/>
+    <wire from="(2520,460)" to="(2520,480)"/>
+    <wire from="(2520,480)" to="(2890,480)"/>
+    <wire from="(2520,500)" to="(2520,590)"/>
+    <wire from="(2520,590)" to="(2540,590)"/>
+    <wire from="(2530,440)" to="(2530,630)"/>
+    <wire from="(2530,630)" to="(2540,630)"/>
+    <wire from="(2540,220)" to="(2540,230)"/>
+    <wire from="(2540,280)" to="(2540,340)"/>
+    <wire from="(2560,150)" to="(2560,200)"/>
+    <wire from="(2560,150)" to="(2610,150)"/>
+    <wire from="(2560,250)" to="(2560,260)"/>
+    <wire from="(2560,250)" to="(2610,250)"/>
+    <wire from="(2570,160)" to="(2570,570)"/>
+    <wire from="(2570,160)" to="(2610,160)"/>
+    <wire from="(2580,170)" to="(2580,230)"/>
+    <wire from="(2580,170)" to="(2610,170)"/>
+    <wire from="(2580,230)" to="(2590,230)"/>
+    <wire from="(2580,260)" to="(2580,560)"/>
+    <wire from="(2580,260)" to="(2610,260)"/>
+    <wire from="(2590,230)" to="(2590,550)"/>
+    <wire from="(2590,550)" to="(3080,550)"/>
+    <wire from="(260,320)" to="(260,370)"/>
+    <wire from="(260,320)" to="(280,320)"/>
+    <wire from="(260,370)" to="(280,370)"/>
+    <wire from="(2600,270)" to="(2600,530)"/>
+    <wire from="(2600,270)" to="(2610,270)"/>
+    <wire from="(2600,530)" to="(3120,530)"/>
+    <wire from="(2630,190)" to="(2630,230)"/>
+    <wire from="(2630,230)" to="(2720,230)"/>
+    <wire from="(2630,290)" to="(2630,450)"/>
+    <wire from="(2630,450)" to="(3010,450)"/>
+    <wire from="(2650,170)" to="(2710,170)"/>
+    <wire from="(2650,270)" to="(2660,270)"/>
+    <wire from="(2660,220)" to="(2660,270)"/>
+    <wire from="(2660,220)" to="(2730,220)"/>
+    <wire from="(2670,260)" to="(2670,570)"/>
+    <wire from="(2670,260)" to="(2730,260)"/>
+    <wire from="(2670,570)" to="(2780,570)"/>
+    <wire from="(2680,240)" to="(2680,540)"/>
+    <wire from="(2680,240)" to="(2730,240)"/>
+    <wire from="(270,330)" to="(270,350)"/>
+    <wire from="(270,330)" to="(350,330)"/>
+    <wire from="(270,350)" to="(280,350)"/>
+    <wire from="(2710,170)" to="(2710,200)"/>
+    <wire from="(2710,200)" to="(2730,200)"/>
+    <wire from="(2720,230)" to="(2720,540)"/>
+    <wire from="(2720,540)" to="(2830,540)"/>
+    <wire from="(2730,880)" to="(2730,950)"/>
+    <wire from="(2730,880)" to="(2770,880)"/>
+    <wire from="(2730,950)" to="(3340,950)"/>
+    <wire from="(2750,720)" to="(2750,820)"/>
+    <wire from="(2750,720)" to="(3270,720)"/>
+    <wire from="(2750,820)" to="(2770,820)"/>
+    <wire from="(2760,100)" to="(2760,110)"/>
+    <wire from="(2760,590)" to="(2780,590)"/>
+    <wire from="(2770,1040)" to="(3170,1040)"/>
+    <wire from="(2770,740)" to="(2770,800)"/>
+    <wire from="(2770,740)" to="(3300,740)"/>
+    <wire from="(2770,900)" to="(2770,1040)"/>
+    <wire from="(2780,570)" to="(2780,590)"/>
+    <wire from="(280,10)" to="(280,320)"/>
+    <wire from="(280,10)" to="(3670,10)"/>
+    <wire from="(280,450)" to="(280,460)"/>
+    <wire from="(280,460)" to="(390,460)"/>
+    <wire from="(2830,540)" to="(2830,770)"/>
+    <wire from="(2830,770)" to="(2990,770)"/>
+    <wire from="(2880,610)" to="(2880,680)"/>
+    <wire from="(2880,610)" to="(2930,610)"/>
+    <wire from="(2890,480)" to="(2890,640)"/>
+    <wire from="(2890,480)" to="(3110,480)"/>
+    <wire from="(2890,640)" to="(2950,640)"/>
+    <wire from="(290,20)" to="(1610,20)"/>
+    <wire from="(290,20)" to="(290,340)"/>
+    <wire from="(2910,330)" to="(2910,350)"/>
+    <wire from="(2910,330)" to="(3070,330)"/>
+    <wire from="(2920,310)" to="(2920,580)"/>
+    <wire from="(2920,310)" to="(2970,310)"/>
+    <wire from="(2920,580)" to="(2920,590)"/>
+    <wire from="(2920,580)" to="(2930,580)"/>
+    <wire from="(2920,590)" to="(2920,600)"/>
+    <wire from="(2920,590)" to="(2930,590)"/>
+    <wire from="(2920,600)" to="(2930,600)"/>
+    <wire from="(2950,200)" to="(2960,200)"/>
+    <wire from="(2950,220)" to="(2970,220)"/>
+    <wire from="(2950,620)" to="(2950,640)"/>
+    <wire from="(2960,200)" to="(2960,350)"/>
+    <wire from="(2960,350)" to="(3100,350)"/>
+    <wire from="(2970,220)" to="(2970,310)"/>
+    <wire from="(2970,600)" to="(3000,600)"/>
+    <wire from="(2980,170)" to="(3120,170)"/>
+    <wire from="(2980,90)" to="(2980,170)"/>
+    <wire from="(2990,230)" to="(2990,300)"/>
+    <wire from="(2990,230)" to="(3120,230)"/>
+    <wire from="(2990,770)" to="(2990,800)"/>
+    <wire from="(2990,820)" to="(3010,820)"/>
+    <wire from="(3000,220)" to="(3000,600)"/>
+    <wire from="(3000,220)" to="(3010,220)"/>
+    <wire from="(3010,130)" to="(3010,150)"/>
+    <wire from="(3010,130)" to="(3980,130)"/>
+    <wire from="(3010,150)" to="(3120,150)"/>
+    <wire from="(3010,190)" to="(3010,220)"/>
+    <wire from="(3010,190)" to="(3120,190)"/>
+    <wire from="(3010,450)" to="(3010,820)"/>
+    <wire from="(3010,70)" to="(3010,130)"/>
+    <wire from="(3030,460)" to="(3120,460)"/>
+    <wire from="(3030,60)" to="(3030,460)"/>
+    <wire from="(3050,270)" to="(3050,360)"/>
+    <wire from="(3050,270)" to="(3120,270)"/>
+    <wire from="(3060,250)" to="(3060,320)"/>
+    <wire from="(3060,250)" to="(3120,250)"/>
+    <wire from="(3070,210)" to="(3070,330)"/>
+    <wire from="(3070,210)" to="(3120,210)"/>
+    <wire from="(3080,1030)" to="(3120,1030)"/>
+    <wire from="(3080,290)" to="(3080,380)"/>
+    <wire from="(3080,290)" to="(3120,290)"/>
+    <wire from="(3080,550)" to="(3080,1030)"/>
+    <wire from="(3090,310)" to="(3090,400)"/>
+    <wire from="(3090,310)" to="(3120,310)"/>
+    <wire from="(310,360)" to="(350,360)"/>
+    <wire from="(3100,330)" to="(3100,350)"/>
+    <wire from="(3100,330)" to="(3120,330)"/>
+    <wire from="(3100,360)" to="(3100,380)"/>
+    <wire from="(3100,360)" to="(3110,360)"/>
+    <wire from="(3100,380)" to="(3110,380)"/>
+    <wire from="(3110,350)" to="(3110,360)"/>
+    <wire from="(3110,350)" to="(3120,350)"/>
+    <wire from="(3110,380)" to="(3110,480)"/>
+    <wire from="(3120,1030)" to="(3350,1030)"/>
+    <wire from="(3120,370)" to="(3120,460)"/>
+    <wire from="(3120,530)" to="(3120,1030)"/>
+    <wire from="(3170,480)" to="(3170,1040)"/>
+    <wire from="(3170,480)" to="(3640,480)"/>
+    <wire from="(3270,430)" to="(3270,720)"/>
+    <wire from="(3270,430)" to="(4220,430)"/>
+    <wire from="(330,30)" to="(1940,30)"/>
+    <wire from="(330,30)" to="(330,500)"/>
+    <wire from="(330,500)" to="(390,500)"/>
+    <wire from="(3300,450)" to="(3300,740)"/>
+    <wire from="(3300,450)" to="(3470,450)"/>
+    <wire from="(3340,150)" to="(3610,150)"/>
+    <wire from="(3340,170)" to="(3350,170)"/>
+    <wire from="(3340,190)" to="(3420,190)"/>
+    <wire from="(3340,210)" to="(3440,210)"/>
+    <wire from="(3340,230)" to="(3470,230)"/>
+    <wire from="(3340,250)" to="(3560,250)"/>
+    <wire from="(3340,270)" to="(3550,270)"/>
+    <wire from="(3340,290)" to="(3780,290)"/>
+    <wire from="(3340,310)" to="(3370,310)"/>
+    <wire from="(3340,330)" to="(3390,330)"/>
+    <wire from="(3340,470)" to="(3340,950)"/>
+    <wire from="(3340,470)" to="(3440,470)"/>
+    <wire from="(3350,170)" to="(3350,1030)"/>
+    <wire from="(3350,170)" to="(3460,170)"/>
+    <wire from="(3370,60)" to="(3370,310)"/>
+    <wire from="(3370,60)" to="(3390,60)"/>
+    <wire from="(3390,80)" to="(3390,330)"/>
+    <wire from="(3400,180)" to="(3400,890)"/>
+    <wire from="(3400,180)" to="(3460,180)"/>
+    <wire from="(3400,890)" to="(3430,890)"/>
+    <wire from="(3420,190)" to="(3420,490)"/>
+    <wire from="(3420,490)" to="(3620,490)"/>
+    <wire from="(3440,1330)" to="(3440,1340)"/>
+    <wire from="(3440,1340)" to="(4340,1340)"/>
+    <wire from="(3440,210)" to="(3440,470)"/>
+    <wire from="(3440,210)" to="(3730,210)"/>
+    <wire from="(3450,590)" to="(3460,590)"/>
+    <wire from="(3460,170)" to="(3460,180)"/>
+    <wire from="(3460,170)" to="(3820,170)"/>
+    <wire from="(3470,230)" to="(3470,450)"/>
+    <wire from="(3470,230)" to="(3770,230)"/>
+    <wire from="(3470,560)" to="(3570,560)"/>
+    <wire from="(3490,280)" to="(3490,650)"/>
+    <wire from="(3490,280)" to="(3550,280)"/>
+    <wire from="(3490,650)" to="(3570,650)"/>
+    <wire from="(350,160)" to="(350,330)"/>
+    <wire from="(350,160)" to="(870,160)"/>
+    <wire from="(350,360)" to="(350,510)"/>
+    <wire from="(350,510)" to="(390,510)"/>
+    <wire from="(3500,260)" to="(3500,660)"/>
+    <wire from="(3500,260)" to="(3560,260)"/>
+    <wire from="(3500,660)" to="(3570,660)"/>
+    <wire from="(3530,500)" to="(3530,680)"/>
+    <wire from="(3530,500)" to="(3620,500)"/>
+    <wire from="(3530,680)" to="(3570,680)"/>
+    <wire from="(3550,270)" to="(3550,280)"/>
+    <wire from="(3560,250)" to="(3560,260)"/>
+    <wire from="(3570,560)" to="(3570,610)"/>
+    <wire from="(3610,60)" to="(3620,60)"/>
+    <wire from="(3610,80)" to="(3610,150)"/>
+    <wire from="(3610,80)" to="(3670,80)"/>
+    <wire from="(3620,20)" to="(3620,60)"/>
+    <wire from="(3620,490)" to="(3620,500)"/>
+    <wire from="(3640,420)" to="(3640,480)"/>
+    <wire from="(3640,420)" to="(4060,420)"/>
+    <wire from="(3670,10)" to="(3670,80)"/>
+    <wire from="(3730,210)" to="(3730,250)"/>
+    <wire from="(3730,250)" to="(3980,250)"/>
+    <wire from="(3770,210)" to="(3770,230)"/>
+    <wire from="(3770,210)" to="(3980,210)"/>
+    <wire from="(3780,230)" to="(3780,290)"/>
+    <wire from="(3780,230)" to="(3980,230)"/>
+    <wire from="(3810,180)" to="(3810,680)"/>
+    <wire from="(3810,180)" to="(3870,180)"/>
+    <wire from="(3810,680)" to="(3810,690)"/>
+    <wire from="(3820,170)" to="(3820,190)"/>
+    <wire from="(3820,190)" to="(3980,190)"/>
+    <wire from="(3870,170)" to="(3870,180)"/>
+    <wire from="(3870,170)" to="(3980,170)"/>
+    <wire from="(390,480)" to="(390,490)"/>
+    <wire from="(390,510)" to="(390,520)"/>
+    <wire from="(3980,130)" to="(3980,150)"/>
+    <wire from="(4060,410)" to="(4060,420)"/>
+    <wire from="(4060,410)" to="(4140,410)"/>
+    <wire from="(4140,290)" to="(4140,410)"/>
+    <wire from="(4140,290)" to="(4210,290)"/>
+    <wire from="(4140,410)" to="(4140,1360)"/>
+    <wire from="(4200,150)" to="(4320,150)"/>
+    <wire from="(4200,170)" to="(4330,170)"/>
+    <wire from="(4200,190)" to="(4220,190)"/>
+    <wire from="(4200,210)" to="(4420,210)"/>
+    <wire from="(4200,230)" to="(4210,230)"/>
+    <wire from="(4210,230)" to="(4210,290)"/>
+    <wire from="(4220,190)" to="(4220,430)"/>
+    <wire from="(4220,190)" to="(4290,190)"/>
+    <wire from="(4230,200)" to="(4230,1350)"/>
+    <wire from="(4230,200)" to="(4290,200)"/>
+    <wire from="(4290,190)" to="(4290,200)"/>
+    <wire from="(4320,150)" to="(4320,430)"/>
+    <wire from="(4320,430)" to="(4410,430)"/>
+    <wire from="(4330,170)" to="(4330,410)"/>
+    <wire from="(4330,410)" to="(4410,410)"/>
+    <wire from="(4340,990)" to="(4340,1340)"/>
+    <wire from="(4340,990)" to="(4390,990)"/>
+    <wire from="(4390,450)" to="(4390,990)"/>
+    <wire from="(4390,450)" to="(4450,450)"/>
+    <wire from="(4420,210)" to="(4420,400)"/>
+    <wire from="(4440,420)" to="(4450,420)"/>
+    <wire from="(4450,420)" to="(4450,450)"/>
+    <wire from="(460,270)" to="(460,280)"/>
+    <wire from="(460,280)" to="(520,280)"/>
+    <wire from="(460,310)" to="(520,310)"/>
+    <wire from="(520,290)" to="(520,310)"/>
+    <wire from="(540,270)" to="(650,270)"/>
+    <wire from="(580,590)" to="(580,950)"/>
+    <wire from="(580,590)" to="(610,590)"/>
+    <wire from="(580,950)" to="(600,950)"/>
+    <wire from="(590,320)" to="(590,400)"/>
+    <wire from="(590,320)" to="(920,320)"/>
+    <wire from="(610,220)" to="(610,290)"/>
+    <wire from="(610,220)" to="(650,220)"/>
+    <wire from="(610,290)" to="(1010,290)"/>
+    <wire from="(610,290)" to="(610,460)"/>
+    <wire from="(610,460)" to="(610,590)"/>
+    <wire from="(620,650)" to="(630,650)"/>
+    <wire from="(640,410)" to="(640,620)"/>
+    <wire from="(640,410)" to="(700,410)"/>
+    <wire from="(650,240)" to="(650,270)"/>
+    <wire from="(870,160)" to="(870,190)"/>
+    <wire from="(870,190)" to="(870,220)"/>
+    <wire from="(870,190)" to="(890,190)"/>
+    <wire from="(890,190)" to="(890,380)"/>
+    <wire from="(890,380)" to="(1010,380)"/>
+    <wire from="(920,200)" to="(1280,200)"/>
+    <wire from="(920,200)" to="(920,320)"/>
+    <wire from="(920,320)" to="(1010,320)"/>
+    <wire from="(940,460)" to="(980,460)"/>
+    <wire from="(950,230)" to="(1940,230)"/>
+    <wire from="(950,230)" to="(950,360)"/>
+    <wire from="(950,360)" to="(1010,360)"/>
+    <wire from="(980,300)" to="(1010,300)"/>
+    <wire from="(980,300)" to="(980,460)"/>
+    <wire from="(990,340)" to="(1010,340)"/>
+    <wire from="(990,40)" to="(1950,40)"/>
+    <wire from="(990,40)" to="(990,340)"/>
+  </circuit>
+  <circuit name="ALUc">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="ALUc"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1500,440)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="r"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1710,240)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="zero"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(400,510)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="Vec_size"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(430,560)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="op"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(440,310)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="a"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(440,420)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="b"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="2" loc="(1380,440)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp loc="(1260,410)" name="CARRY_LOOKAHEAD">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1630,240)" name="zero_analyzer">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(870,320)" name="ALU">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(1020,400)" to="(1020,420)"/>
+    <wire from="(1020,420)" to="(1040,420)"/>
+    <wire from="(1030,380)" to="(1030,390)"/>
+    <wire from="(1030,390)" to="(1040,390)"/>
+    <wire from="(1040,390)" to="(1040,410)"/>
+    <wire from="(1040,420)" to="(1040,430)"/>
+    <wire from="(1260,410)" to="(1260,450)"/>
+    <wire from="(1260,450)" to="(1350,450)"/>
+    <wire from="(1310,370)" to="(1310,430)"/>
+    <wire from="(1310,430)" to="(1350,430)"/>
+    <wire from="(1360,320)" to="(1360,420)"/>
+    <wire from="(1380,440)" to="(1410,440)"/>
+    <wire from="(1410,240)" to="(1410,440)"/>
+    <wire from="(1410,440)" to="(1500,440)"/>
+    <wire from="(1630,240)" to="(1710,240)"/>
+    <wire from="(400,510)" to="(540,510)"/>
+    <wire from="(430,560)" to="(630,560)"/>
+    <wire from="(440,310)" to="(630,310)"/>
+    <wire from="(440,420)" to="(520,420)"/>
+    <wire from="(520,350)" to="(520,420)"/>
+    <wire from="(520,350)" to="(630,350)"/>
+    <wire from="(540,470)" to="(540,510)"/>
+    <wire from="(540,470)" to="(650,470)"/>
+    <wire from="(630,310)" to="(630,320)"/>
+    <wire from="(630,320)" to="(650,320)"/>
+    <wire from="(630,340)" to="(630,350)"/>
+    <wire from="(630,340)" to="(650,340)"/>
+    <wire from="(630,360)" to="(630,560)"/>
+    <wire from="(630,360)" to="(650,360)"/>
+    <wire from="(650,380)" to="(650,470)"/>
+    <wire from="(650,470)" to="(1040,470)"/>
+    <wire from="(860,340)" to="(870,340)"/>
+    <wire from="(870,320)" to="(1360,320)"/>
+    <wire from="(870,340)" to="(910,340)"/>
+    <wire from="(870,360)" to="(970,360)"/>
+    <wire from="(870,380)" to="(1030,380)"/>
+    <wire from="(870,400)" to="(1020,400)"/>
+    <wire from="(910,340)" to="(910,450)"/>
+    <wire from="(910,450)" to="(1040,450)"/>
+    <wire from="(970,360)" to="(970,370)"/>
+    <wire from="(970,370)" to="(1310,370)"/>
+  </circuit>
+  <vhdl name="PC">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY PC IS&#13;
+  PORT (&#13;
+  ------------------------------------------------------------------------------&#13;
+  --Insert input ports below&#13;
+    clock, reset,write_e      : IN  std_logic;
+    a : IN std_logic_vector (31 DOWNTO 0);
+    b : OUT std_logic_vector (31 DOWNTO 0)
+    );&#13;
+END PC;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF PC IS&#13;
+&#13;
+BEGIN&#13;
+&#13;
+PROCESS (clock, reset)
+BEGIN
+IF (write_e = '1') THEN
+IF (rising_edge(clock)) THEN
+	IF (a = "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU") THEN 
+		 b &lt;= "00000000000000000000000000000000";
+	ELSE
+		b &lt;= a;
+	END IF;
+END IF;
+IF (reset = '1') THEN
+	 b &lt;= "00000000000000000000000000000000";
+END IF; 
+END IF;
+END PROCESS;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="Somador">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+library IEEE;
+
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ entity Somador is
+
+  port(A, B_u : in std_logic_vector (31 downto 0);
+  S : out std_logic_vector (31 downto 0));
+
+ end Somador;
+
+ architecture TypeArchitecture of Somador is
+ signal C     : std_logic_vector (31 downto 0);
+ signal control  : std_logic_vector (2 downto 0);
+ signal mode : std_logic;
+ begin
+ 
+    control(0) &lt;= '1';
+    control(1) &lt;= '1';
+    control(2) &lt;= '1';
+    mode &lt;= '0';
+    
+Carrys:process(C, control, mode, A, B_u)
+begin
+    C(0) &lt;= mode;
+    C(1) &lt;= (A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode));
+    C(2) &lt;= (A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))));
+    C(3) &lt;= (A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))));
+    C(4) &lt;= (((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)));
+    C(5) &lt;= (A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))));
+    C(6) &lt;= (A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(7) &lt;= (A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))));
+    C(8) &lt;= (((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)));
+    C(9) &lt;= (A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))));
+    C(10) &lt;= (A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))));
+    C(11) &lt;= (A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))));
+    C(12) &lt;= (((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(13) &lt;= (A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(14) &lt;= (A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(15) &lt;= (A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+    C(16) &lt;= (((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)));
+    C(17) &lt;= (A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))));
+    C(18) &lt;= (A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))));
+    C(19) &lt;= (A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))));
+    C(20) &lt;= (((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(21) &lt;= (A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(22) &lt;= (A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(23) &lt;= (A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+    C(24) &lt;= (((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)));
+    C(25) &lt;= (A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))));
+    C(26) &lt;= (A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))));
+    C(27) &lt;= (A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))));
+    C(28) &lt;= (((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(29) &lt;= (A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(30) &lt;= (A(29) and B_u(29)) or ((A(29) or B_u(29)) and ((A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(31) &lt;= (A(30) and B_u(30)) or ((A(30) or B_u(30)) and ((A(29) and B_u(29)) or ((A(29) or B_u(29)) and ((A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+
+end process Carrys;
+process(A,B_u,C)
+    begin
+    for n in 0 to 31 loop
+      S(n) &lt;= (A(n)xor B_u(n)) xor C(n);
+    end loop;
+    end process;
+end TypeArchitecture;
+</vhdl>
+  <vhdl name="IF_ID">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY IF_ID IS&#13;
+  PORT (&#13;
+  ------------------------------------------------------------------------------&#13;
+    pc, instruc        : IN  std_logic_vector(31 DOWNTO 0);
+    clock, write_e              : IN std_logic;
+    flush : IN std_logic;
+    pcnext : IN std_logic_vector(31 DOWNTO 0);
+    pc_o, instruc_o    : OUT std_logic_vector (31 DOWNTO 0);
+    flush_next : OUT std_logic;
+    pcnext_o : OUT std_logic_vector(31 DOWNTO 0));
+END IF_ID;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF IF_ID IS&#13;
+&#13;SIGNAL pc_mem,instruc_mem, pcnext_mem : std_logic_vector(31 DOWNTO 0);
+BEGIN&#13;
+PROCESS (clock,pc,instruc, flush, pcnext)
+BEGIN
+IF (write_e = '1') THEN
+	IF (rising_edge(clock)) THEN
+		pc_mem &lt;= pc;
+		instruc_mem &lt;= instruc;
+		pcnext_mem &lt;= pcnext;
+	END IF;
+	IF (falling_edge(clock)) THEN
+		IF (flush = '1') THEN 
+			flush_next &lt;= '1';
+		ELSE
+			flush_next &lt;= '0';
+			pc_o &lt;= pc_mem;
+			instruc_o &lt;= instruc_mem;
+			pcnext_o &lt;= pcnext_mem;
+		END IF;
+	END IF;
+END IF;
+
+END PROCESS;
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="Imm_gen">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+USE ieee.numeric_std.all;
+&#13;
+ENTITY Imm_gen IS&#13;
+  PORT (&#13;
+    instruc        : IN  std_logic_vector(31 DOWNTO 0);
+    imm            : OUT std_logic_vector(31 DOWNTO 0)
+    );
+END Imm_gen;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE Behavioral OF Imm_gen IS&#13;
+SIGNAL opcode : std_logic_vector (6 DOWNTO 0)&#13;;
+SIGNAL temp_imm: std_logic_vector (31 DOWNTO 0);
+BEGIN&#13;
+process(opcode,instruc,temp_imm)
+begin
+opcode (6 DOWNTO 0) &lt;= instruc(6 DOWNTO 0);
+temp_imm &lt;= (others =&gt; '0');
+IF (opcode = "0000011" OR opcode = "0010011" OR opcode = "0010000" OR opcode = "0010001" OR opcode = "0010010") THEN --Tipo I
+	temp_imm (11 DOWNTO 0) &lt;= instruc (31 DOWNTO 20);
+	temp_imm (31 DOWNTO 12) &lt;= (31 DOWNTO 12 =&gt; instruc(31));
+ELSIF (opcode = "0100011") THEN --Tipo S
+	temp_imm (11 DOWNTO 5) &lt;= instruc (31 DOWNTO 25);
+	temp_imm (4 DOWNTO 0) &lt;= instruc (11 DOWNTO 7);
+	temp_imm (31 DOWNTO 12) &lt;= (31 DOWNTO 12 =&gt; instruc(31));
+
+ELSIF (opcode = "1100011") THEN --Tipo SB
+	temp_imm (12) &lt;= instruc(31);
+	temp_imm (11) &lt;= instruc(7);
+	temp_imm (10 DOWNTO 5) &lt;= instruc (30 DOWNTO 25);
+	temp_imm (4 DOWNTO 1) &lt;= instruc (11 DOWNTO 8);
+	temp_imm (31 DOWNTO 13) &lt;= (31 DOWNTO 13 =&gt; instruc(31));
+ELSIF(opcode = "0110111" OR opcode = "0010111") THEN --Tipo U
+	temp_imm (31 DOWNTO 12) &lt;= instruc(31 DOWNTO 12);
+ELSIF(opcode = "1101111" OR opcode = "0010100" OR opcode = "0010101" OR opcode = "0010110") THEN --Tipo UJ
+	temp_imm(20) &lt;= instruc(31);
+	temp_imm(10 DOWNTO 1) &lt;= instruc(30 DOWNTO 21);
+	temp_imm(11) &lt;= instruc(20);
+	temp_imm(19 DOWNTO 12) &lt;= instruc(19 DOWNTO 12);
+	temp_imm(31 DOWNTO 21) &lt;= (31 DOWNTO 21 =&gt; instruc(31));
+ELSE
+	temp_imm(31 DOWNTO 0) &lt;= "11111111111111111111111111111111";
+END IF;
+imm  &lt;= temp_imm;
+END process;
+imm &lt;= temp_imm;
+END Behavioral;&#13;
+</vhdl>
+  <vhdl name="Control">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY Control IS&#13;
+  PORT (&#13;
+    opcode        : IN  std_logic_vector(6 DOWNTO 0);
+    nop : IN std_logic;
+    func3 : IN std_logic_vector(2 DOWNTO 0);
+    regwrite, alusrc, memread, memwrite, memtoreg, lui : OUT std_logic;
+    aluop,branch       : OUT std_logic_vector(1 DOWNTO 0);
+    jalr, auipc : OUT std_logic
+    
+    );&#13;
+END Control;&#13;
+
+ARCHITECTURE TypeArchitecture OF Control IS&#13;
+BEGIN&#13;
+
+PROCESS(opcode, nop)
+BEGIN
+IF (nop = '1') THEN
+	aluop &lt;= "00";
+	regwrite &lt;= '0';
+	alusrc &lt;= '0';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+ELSE
+case opcode is
+when "0110011"|"0110000"|"0110001"|"0110010" =&gt; --Tipo R
+	aluop &lt;= "10";
+	regwrite &lt;= '1';
+	alusrc &lt;= '0';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+when "0010011"|"0010000"|"0010001"|"0010010" =&gt; --Tipo I
+	aluop &lt;= "10";
+	regwrite &lt;= '1';
+	alusrc &lt;= '1';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+when "1100011" =&gt; --bne e beq
+	aluop &lt;= "01";
+	regwrite &lt;= '0';
+	alusrc &lt;= '0';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+	IF (func3 = "000") THEN --beq
+		branch &lt;= "01";
+	ELSIF (func3 = "001") THEN --bne
+		branch &lt;= "10";
+	END IF;
+when "1101111" =&gt; --jal
+	aluop &lt;= "01";
+	regwrite &lt;= '1';
+	alusrc &lt;= '0';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "11";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+
+when "1100111" =&gt; --jalr
+	aluop &lt;= "01";
+	regwrite &lt;= '1';
+	alusrc &lt;= '0';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "11";
+	lui &lt;= '0';
+	jalr &lt;= '1';
+	auipc &lt;= '0';
+
+when "0000011" =&gt; --lw
+	aluop &lt;= "00";
+	regwrite &lt;= '1';
+	alusrc &lt;= '1';
+	memread &lt;= '1';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '1';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+when "0100011" =&gt;--sw
+	aluop &lt;= "00";
+	regwrite &lt;= '0';
+	alusrc &lt;= '1';
+	memread &lt;= '0';
+	memwrite &lt;= '1';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+when "0110111" =&gt; --lui
+	aluop &lt;= "00";
+	regwrite &lt;= '1';
+	alusrc &lt;= '1';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '1';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+when "0010111"|"0010100"|"0010101"|"0010110" =&gt;--auipc
+	aluop &lt;= "00";
+	regwrite &lt;= '1';
+	alusrc &lt;= '1';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '1';
+when others =&gt;
+	aluop &lt;= "00";
+	regwrite &lt;= '0';
+	alusrc &lt;= '1';
+	memread &lt;= '0';
+	memwrite &lt;= '0';
+	memtoreg &lt;= '0';
+	branch &lt;= "00";
+	lui &lt;= '0';
+	jalr &lt;= '0';
+	auipc &lt;= '0';
+END case;
+END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="Branch_ctrl">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY Branch_ctrl IS&#13;
+  PORT (&#13;
+    aluzero : IN std_logic;
+    branch : IN  std_logic_vector(1 DOWNTO 0);
+    pcsrc        : OUT std_logic
+    );&#13;
+END Branch_ctrl;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF Branch_ctrl IS&#13;
+&#13;
+BEGIN&#13;
+&#13;
+PROCESS (branch,aluzero)
+BEGIN
+IF (branch = "00") THEN
+	pcsrc &lt;= '0';
+ELSIF (branch = "11") THEN
+	pcsrc &lt;= '1';
+ELSIF (branch = "01") THEN
+	pcsrc &lt;= aluzero;
+ELSIF(branch = "10") THEN 
+	pcsrc &lt;= NOT(aluzero);
+ELSE
+	pcsrc &lt;= '0';
+END IF;
+END PROCESS;
+		
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="CARRY_LOOKAHEAD">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+library IEEE;
+
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ entity CARRY_LOOKAHEAD is
+
+  port(A, B : in std_logic_vector (31 downto 0);
+  mode: in std_logic;
+  Vec_size: in std_logic_vector(1 downto 0);
+  S : out std_logic_vector (31 downto 0));
+
+ end CARRY_LOOKAHEAD;
+
+ architecture TypeArchitecture of CARRY_LOOKAHEAD is
+ signal C     : std_logic_vector (31 downto 0);
+ signal B_u     : std_logic_vector (31 downto 0);
+ signal control  : std_logic_vector (2 downto 0);
+ begin
+ 
+--Esse código transoforma o número B em negativo, caso a operação seja a subtração A+(-B)
+    process(B, mode)
+    begin
+    for n in 0 to 31 loop
+      B_u(n) &lt;= (B(n) and (not mode)) or ((not B(n)) and mode);
+    end loop;
+    end process;
+    
+-- Definindo control
+    control(0) &lt;= Vec_size(0) or Vec_size(1);
+    control(1) &lt;= Vec_size(1);
+    control(2) &lt;= Vec_size(0) and Vec_size(1);
+    
+Carrys:process(C,mode)
+begin
+    C(0) &lt;= mode;
+    C(1) &lt;= (A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode));
+    C(2) &lt;= (A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))));
+    C(3) &lt;= (A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))));
+    -- Subcampo 1 de 4 bits
+    C(4) &lt;= (((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)));
+    C(5) &lt;= (A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))));
+    C(6) &lt;= (A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(7) &lt;= (A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))));
+    -- Subcampo 2 de 4 bits
+    C(8) &lt;= (((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)));
+    C(9) &lt;= (A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))));
+    C(10) &lt;= (A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))));
+    C(11) &lt;= (A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))));
+    -- Subcampo 3 de 4 bits
+    C(12) &lt;= (((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(13) &lt;= (A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(14) &lt;= (A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(15) &lt;= (A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+    -- Subcampo 4 de 4 bits
+    C(16) &lt;= (((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)));
+    C(17) &lt;= (A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))));
+    C(18) &lt;= (A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))));
+    C(19) &lt;= (A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))));
+    -- Subcampo 5 de 4 bits
+    C(20) &lt;= (((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(21) &lt;= (A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(22) &lt;= (A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(23) &lt;= (A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+    -- Subcampo 6 de 4 bits
+    C(24) &lt;= (((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)));
+    C(25) &lt;= (A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))));
+    C(26) &lt;= (A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))));
+    C(27) &lt;= (A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))));
+    -- Subcampo 7 de 4 bits
+    C(28) &lt;= (((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)));
+    C(29) &lt;= (A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))));
+    C(30) &lt;= (A(29) and B_u(29)) or ((A(29) or B_u(29)) and ((A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))));
+    C(31) &lt;= (A(30) and B_u(30)) or ((A(30) or B_u(30)) and ((A(29) and B_u(29)) or ((A(29) or B_u(29)) and ((A(28) and B_u(28)) or ((A(28) or B_u(28)) and ((((A(27) and B_u(27)) or ((A(27) or B_u(27)) and ((A(26) and B_u(26)) or ((A(26) or B_u(26)) and ((A(25) and B_u(25)) or ((A(25) or B_u(25)) and ((A(24) and B_u(24)) or ((A(24) or B_u(24)) and ((((A(23) and B_u(23)) or ((A(23) or B_u(23)) and ((A(22) and B_u(22)) or ((A(22) or B_u(22)) and ((A(21) and B_u(21)) or ((A(21) or B_u(21)) and ((A(20) and B_u(20)) or ((A(20) or B_u(20)) and ((((A(19) and B_u(19)) or ((A(19) or B_u(19)) and ((A(18) and B_u(18)) or ((A(18) or B_u(18)) and ((A(17) and B_u(17)) or ((A(17) or B_u(17)) and ((A(16) and B_u(16)) or ((A(16) or B_u(16)) and ((((A(15) and B_u(15)) or ((A(15) or B_u(15)) and ((A(14) and B_u(14)) or ((A(14) or B_u(14)) and ((A(13) and B_u(13)) or ((A(13) or B_u(13)) and ((A(12) and B_u(12)) or ((A(12) or B_u(12)) and ((((A(11) and B_u(11)) or ((A(11) or B_u(11)) and ((A(10) and B_u(10)) or ((A(10) or B_u(10)) and ((A(9) and B_u(9)) or ((A(9) or B_u(9)) and ((A(8) and B_u(8)) or ((A(8) or B_u(8)) and ((((A(7) and B_u(7)) or ((A(7) or B_u(7)) and ((A(6) and B_u(6)) or ((A(6) or B_u(6)) and ((A(5) and B_u(5)) or ((A(5) or B_u(5)) and ((A(4) and B_u(4)) or ((A(4) or B_u(4)) and ((((A(3) and B_u(3)) or ((A(3) or B_u(3)) and ((A(2) and B_u(2)) or ((A(2) or B_u(2)) and ((A(1) and B_u(1)) or ((A(1) or B_u(1)) and ((A(0) and B_u(0)) or ((A(0) or B_u(0)) and (mode))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(2)) or (mode and (not control(2)))))))))))) and control(0)) or (mode and (not control(0)))))))))))) and control(1)) or (mode and (not control(1)))))))))))) and control(0)) or (mode and (not control(0)))))))));
+
+end process Carrys;
+process(A,B_u,C)
+    begin
+    for n in 0 to 31 loop
+      S(n) &lt;= (A(n)xor B_u(n)) xor C(n);
+    end loop;
+    end process;
+end TypeArchitecture;
+</vhdl>
+  <vhdl name="ALU">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ENTITY ALU IS
+  PORT (
+    a,b      : IN  std_logic_vector(31 DOWNTO 0);
+    op        : IN  std_logic_vector(3 DOWNTO 0);
+    r_select, mode        : OUT std_logic;
+    r,ae,be        : OUT std_logic_vector(31 DOWNTO 0);
+    vec_size : IN std_logic_vector(1 DOWNTO 0)
+    );
+END ALU;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF ALU IS
+
+SIGNAL b_i : integer;
+SIGNAL b_2i : integer;
+SIGNAL b_3i : integer;
+SIGNAL b_4i : integer;
+SIGNAL b_5i : integer;
+SIGNAL b_6i : integer;
+SIGNAL b_7i : integer;
+SIGNAL b_8i : integer;
+BEGIN
+
+PROCESS(a,b,op,b_i,b_2i,b_3i,b_4i,b_5i,b_6i,b_7i,b_8i)
+BEGIN
+case op is
+when "0000" =&gt; --AND
+	r &lt;= a AND b;
+	r_select &lt;= '0';
+when "0001" =&gt; --OR
+	r &lt;= a OR b;
+	r_select &lt;= '0';
+when "0111" =&gt; --XOR
+	r &lt;= a XOR b;
+	r_select &lt;= '0';
+when "0010" =&gt; --Soma
+	ae &lt;= a;
+	be &lt;= b;
+	r_select &lt;= '1';
+	mode &lt;= '0';
+when "0110" =&gt; --Sub
+	ae &lt;= a;
+	be &lt;= b;
+	r_select &lt;= '1';
+	mode &lt;= '1';
+when "1000"=&gt; --Shift Left
+	
+	if(vec_size = "10") then
+	b_2i &lt;= to_integer(unsigned(b(31 downto 16)));
+	b_i &lt;= to_integer(unsigned(b(15 downto 0)));
+	r(31 downto 16) &lt;= std_logic_vector(shift_left(unsigned(a(31 DOWNTO 16)), b_2i));
+	r(15 downto 0) &lt;= std_logic_vector(shift_left(unsigned(a(15 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+     elsif(vec_size="01")then
+     b_4i &lt;= to_integer(unsigned(b(31 downto 24)));
+	b_3i &lt;= to_integer(unsigned(b(23 downto 16)));
+	b_2i &lt;= to_integer(unsigned(b(15 downto 8)));
+	b_i &lt;= to_integer(unsigned(b(7 downto 0)));
+	
+	r(31 downto 24) &lt;= std_logic_vector(shift_left(unsigned(a(31 DOWNTO 24)), b_4i));
+	r(23 downto 16) &lt;= std_logic_vector(shift_left(unsigned(a(23 DOWNTO 16)), b_3i));
+	r(15 downto 8)  &lt;= std_logic_vector(shift_left(unsigned(a(15 DOWNTO 8)), b_2i));
+	r(7 downto 0)   &lt;= std_logic_vector(shift_left(unsigned(a(7 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+	elsif(vec_size="00")then
+	b_8i &lt;= to_integer(unsigned(b(31 downto 28)));
+	b_7i &lt;= to_integer(unsigned(b(27 downto 24)));
+	b_6i &lt;= to_integer(unsigned(b(23 downto 20)));
+	b_5i &lt;= to_integer(unsigned(b(19 downto 16)));
+	b_4i &lt;= to_integer(unsigned(b(15 downto 12)));
+	b_3i &lt;= to_integer(unsigned(b(11 downto 8)));
+	b_2i &lt;= to_integer(unsigned(b(7 downto 4)));
+	b_i &lt;= to_integer(unsigned(b(3 downto 0)));
+	
+	r(31 downto 28) &lt;= std_logic_vector(shift_left(unsigned(a(31 DOWNTO 28)), b_8i));
+	r(27 downto 24) &lt;= std_logic_vector(shift_left(unsigned(a(27 DOWNTO 24)), b_7i));
+	r(23 downto 20)  &lt;= std_logic_vector(shift_left(unsigned(a(23 DOWNTO 20)), b_6i));
+	r(19 downto 16)   &lt;= std_logic_vector(shift_left(unsigned(a(19 DOWNTO 16)), b_5i));
+	r(15 downto 12) &lt;= std_logic_vector(shift_left(unsigned(a(15 DOWNTO 12)), b_4i));
+	r(11 downto 8) &lt;= std_logic_vector(shift_left(unsigned(a(11 DOWNTO 8)), b_3i));
+	r(7 downto 4)  &lt;= std_logic_vector(shift_left(unsigned(a(7 DOWNTO 4)), b_2i));
+	r(3 downto 0)   &lt;= std_logic_vector(shift_left(unsigned(a(3 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+	else
+	b_i &lt;= to_integer(unsigned(b));
+	r &lt;= std_logic_vector(shift_left(unsigned(a), b_i));
+	r_select &lt;= '0';
+	end if;
+	
+when "1001"=&gt; --Shift Right
+	
+	if(vec_size = "10") then
+	b_2i &lt;= to_integer(unsigned(b(31 downto 16)));
+	b_i &lt;= to_integer(unsigned(b(15 downto 0)));
+	r(31 downto 16) &lt;= std_logic_vector(shift_right(unsigned(a(31 DOWNTO 16)), b_2i));
+	r(15 downto 0) &lt;= std_logic_vector(shift_right(unsigned(a(15 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+     elsif(vec_size="01")then
+     b_4i &lt;= to_integer(unsigned(b(31 downto 24)));
+	b_3i &lt;= to_integer(unsigned(b(23 downto 16)));
+	b_2i &lt;= to_integer(unsigned(b(15 downto 8)));
+	b_i &lt;= to_integer(unsigned(b(7 downto 0)));
+	
+	r(31 downto 24) &lt;= std_logic_vector(shift_right(unsigned(a(31 DOWNTO 24)), b_4i));
+	r(23 downto 16) &lt;= std_logic_vector(shift_right(unsigned(a(23 DOWNTO 16)), b_3i));
+	r(15 downto 8)  &lt;= std_logic_vector(shift_right(unsigned(a(15 DOWNTO 8)), b_2i));
+	r(7 downto 0)   &lt;= std_logic_vector(shift_right(unsigned(a(7 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+	elsif(vec_size="00")then
+	b_8i &lt;= to_integer(unsigned(b(31 downto 28)));
+	b_7i &lt;= to_integer(unsigned(b(27 downto 24)));
+	b_6i &lt;= to_integer(unsigned(b(23 downto 20)));
+	b_5i &lt;= to_integer(unsigned(b(19 downto 16)));
+	b_4i &lt;= to_integer(unsigned(b(15 downto 12)));
+	b_3i &lt;= to_integer(unsigned(b(11 downto 8)));
+	b_2i &lt;= to_integer(unsigned(b(7 downto 4)));
+	b_i &lt;= to_integer(unsigned(b(3 downto 0)));
+	
+	r(31 downto 28) &lt;= std_logic_vector(shift_right(unsigned(a(31 DOWNTO 28)), b_8i));
+	r(27 downto 24) &lt;= std_logic_vector(shift_right(unsigned(a(27 DOWNTO 24)), b_7i));
+	r(23 downto 20)  &lt;= std_logic_vector(shift_right(unsigned(a(23 DOWNTO 20)), b_6i));
+	r(19 downto 16)   &lt;= std_logic_vector(shift_right(unsigned(a(19 DOWNTO 16)), b_5i));
+	r(15 downto 12) &lt;= std_logic_vector(shift_right(unsigned(a(15 DOWNTO 12)), b_4i));
+	r(11 downto 8) &lt;= std_logic_vector(shift_right(unsigned(a(11 DOWNTO 8)), b_3i));
+	r(7 downto 4)  &lt;= std_logic_vector(shift_right(unsigned(a(7 DOWNTO 4)), b_2i));
+	r(3 downto 0)   &lt;= std_logic_vector(shift_right(unsigned(a(3 DOWNTO 0)), b_i));
+	r_select &lt;= '0';
+	else
+	b_i &lt;= to_integer(unsigned(b));
+	r &lt;= std_logic_vector(shift_right(unsigned(a), b_i));
+	r_select &lt;= '0';
+	end if;
+
+
+when others =&gt;
+	ae &lt;= a;
+	be &lt;= b;
+	r_select &lt;= '1';
+	mode &lt;= '1';
+END case;
+END PROCESS;
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="zero_analyzer">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY zero_analyzer IS&#13;
+  PORT (&#13;
+    r        : IN  std_logic_vector(31 DOWNTO 0);
+    zero       : OUT std_logic
+    );&#13;
+END zero_analyzer;&#13;
+ARCHITECTURE TypeArchitecture OF zero_analyzer IS&#13;
+&#13;
+BEGIN&#13;
+&#13;
+process(r)
+BEGIN
+
+IF (r = "00000000000000000000000000000000") THEN
+	zero &lt;= '1';
+ELSE
+	zero &lt;= '0';
+END IF;
+END PROCESS;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="ALU_ctrl">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY ALU_ctrl IS&#13;
+  PORT (&#13;
+    func7      : IN  std_logic;
+    func3        : IN  std_logic_vector(2 DOWNTO 0);
+    aluop : IN std_logic_vector(1 DOWNTO 0);
+    aluctrl        : OUT std_logic_vector(3 DOWNTO 0)
+    );&#13;
+END ALU_ctrl;&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF ALU_ctrl IS
+BEGIN&#13;
+&#13;PROCESS (func7,func3,aluop)
+BEGIN&#13;
+&#13;IF (aluop = "00") THEN
+	aluctrl &lt;= "0010";
+ELSIF (aluop = "01") THEN
+	aluctrl &lt;= "0110";
+ELSIF (aluop = "10") THEN
+	IF (func7 = '1') THEN
+		aluctrl &lt;= "0110";
+	ELSIF (func7 = '0') THEN
+		IF (func3 = "000") THEN
+			aluctrl &lt;= "0010";
+		ELSIF (func3 = "111") THEN
+			aluctrl &lt;= "0000";
+		ELSIF (func3 = "110") THEN
+			aluctrl &lt;= "0001";
+		ELSIF (func3 = "001") THEN
+			aluctrl &lt;= "1000";
+		ELSIF (func3 = "101") THEN
+			aluctrl &lt;= "1001";
+		ELSIF (func3 = "100") THEN
+			aluctrl &lt;= "0111";
+		END IF;
+	END IF;
+END IF;
+END PROCESS;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="ID_EX">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY ID_EX IS&#13;
+  PORT (&#13;
+    clock      : IN  std_logic;
+    imm,rd1,rd2,pc        : IN  std_logic_vector(31 DOWNTO 0);
+    func3: IN std_logic_vector (2 DOWNTO 0);
+    rw: IN std_logic_vector(4 DOWNTO 0);
+    regwrite, alusrc, memread, memwrite, memtoreg, lui : IN std_logic;
+    aluop,branch       : IN std_logic_vector(1 DOWNTO 0);
+    func7 : IN std_logic;
+    ra1,ra2 : IN std_logic_vector (4 DOWNTO 0);
+    flush : IN std_logic;
+    vec_size : IN std_logic_vector (1 DOWNTO 0);
+    pcnext : IN std_logic_vector (31 DOWNTO 0);
+    imm_o,rd1_o,rd2_o,pc_o        : OUT  std_logic_vector(31 DOWNTO 0);
+    func3_o: OUT std_logic_vector (2 DOWNTO 0);
+    rw_o: OUT std_logic_vector(4 DOWNTO 0);
+    regwrite_o, alusrc_o, memread_o, memwrite_o, memtoreg_o, lui_o : OUT std_logic;
+    aluop_o,branch_o       : OUT std_logic_vector(1 DOWNTO 0);
+    func7_o : OUT std_logic;
+    ra1_o, ra2_o : OUT std_logic_vector (4 DOWNTO 0);
+    vec_size_o : OUT std_logic_vector (1 DOWNTO 0);
+    pcnext_o : OUT std_logic_vector (31 DOWNTO 0)
+    );&#13;
+END ID_EX;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF ID_EX IS&#13;
+&#13;SIGNAL imm_mem,rd1_mem,rd2_mem,pc_mem, pcnext_mem : std_logic_vector (31 DOWNTO 0);
+SIGNAL func3_mem : std_logic_vector (2 DOWNTO 0);
+SIGNAL rw_mem : std_logic_vector (4 DOWNTO 0);
+SIGNAL regwrite_mem, alusrc_mem, memread_mem, memwrite_mem, memtoreg_mem, lui_mem, func7_mem :std_logic;
+SIGNAL aluop_mem, branch_mem : std_logic_vector(1 DOWNTO 0);
+SIGNAL ra1_mem, ra2_mem : std_logic_vector(4 DOWNTO 0);
+SIGNAL vec_size_mem : std_logic_vector (1 DOWNTO 0);
+BEGIN&#13;
+&#13;PROCESS(clock, imm, rd1, rd2, pc, func3, rw, regwrite, alusrc, memread, memwrite, memtoreg, lui, aluop, branch, func7,flush, vec_size)
+BEGIN
+IF (rising_edge(clock)) THEN
+	imm_mem &lt;= imm;
+	rd1_mem &lt;= rd1;
+	rd2_mem &lt;= rd2;
+	pc_mem &lt;= pc;
+	func3_mem &lt;= func3;
+	rw_mem &lt;= rw;
+	regwrite_mem &lt;= regwrite;
+	alusrc_mem &lt;= alusrc;
+	memread_mem &lt;= memread;
+	memwrite_mem &lt;= memwrite;
+	memtoreg_mem &lt;= memtoreg;
+	lui_mem &lt;= lui;
+	aluop_mem &lt;= aluop;
+	branch_mem &lt;= branch;
+	func7_mem &lt;= func7;
+	ra1_mem &lt;= ra1;
+	ra2_mem &lt;= ra2;
+	vec_size_mem &lt;= vec_size;
+	pcnext_mem &lt;= pcnext;
+END IF;
+IF(falling_edge(clock)) THEN
+	IF (flush = '1') THEN
+		imm_o &lt;= imm;
+		rd1_o &lt;= rd1;
+		rd2_o &lt;= rd2;
+		pc_o &lt;= pc;
+		func3_o &lt;= func3;
+		rw_o &lt;= rw;
+		regwrite_o &lt;= '0';
+		alusrc_o &lt;= '0';
+		memread_o &lt;= '0';
+		memwrite_o &lt;= '0';
+		memtoreg_o &lt;= '0';
+		lui_o &lt;= '0';
+		aluop_o &lt;= "00";
+		branch_o &lt;= "00";
+		func7_o &lt;= func7;
+		ra1_o &lt;= ra1;
+		ra2_o &lt;= ra2;
+		vec_size_o &lt;= vec_size;
+		pcnext_o &lt;= pcnext;
+	ELSE
+			imm_o &lt;= imm_mem;
+			rd1_o &lt;= rd1_mem;
+			rd2_o &lt;= rd2_mem;
+			pc_o &lt;= pc_mem;
+			func3_o &lt;= func3_mem;
+			rw_o &lt;= rw_mem;
+			regwrite_o &lt;= regwrite_mem;
+			alusrc_o &lt;= alusrc_mem;
+			memread_o &lt;= memread_mem;
+			memwrite_o &lt;= memwrite_mem;
+			memtoreg_o &lt;= memtoreg_mem;
+			lui_o &lt;= lui_mem;
+			aluop_o &lt;= aluop_mem;
+			branch_o &lt;= branch_mem;
+			func7_o &lt;= func7_mem;
+			ra1_o &lt;= ra1_mem;
+			ra2_o &lt;= ra2_mem;
+			vec_size_o &lt;= vec_size_mem;
+			pcnext_o &lt;= pcnext_mem;
+	END IF;
+END IF;
+END PROCESS;
+
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="EX_MEM">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY EX_MEM IS&#13;
+  PORT (&#13;
+
+    clock      : IN  std_logic;
+    branch_res, alu_res, rd2        : IN  std_logic_vector(31 DOWNTO 0);
+    rw : IN std_logic_vector(4 DOWNTO 0);
+    regwrite, memread, memwrite, memtoreg, zero : IN std_logic;
+    branch : IN std_logic_vector(1 DOWNTO 0);
+    flush : IN std_logic;
+    branch_res_o, alu_res_o, rd2_o        : OUT  std_logic_vector(31 DOWNTO 0);
+    rw_o : OUT std_logic_vector(4 DOWNTO 0);
+    regwrite_o, memread_o, memwrite_o, memtoreg_o, zero_o : OUT std_logic;
+    branch_o : OUT std_logic_vector(1 DOWNTO 0)
+    );&#13;
+END EX_MEM;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF EX_MEM IS&#13;
+&#13;SIGNAL branch_res_mem, alu_res_mem, rd2_mem : std_logic_vector(31 DOWNTO 0);
+SIGNAL rw_mem : std_logic_vector(4 DOWNTO 0);
+SIGNAL regwrite_mem, memread_mem, memwrite_mem, memtoreg_mem, zero_mem : std_logic;
+Signal branch_mem : std_logic_vector(1 DOWNTO 0);
+BEGIN&#13;
+&#13;PROCESS(clock, branch_res, alu_res, zero, rd2, rw, regwrite, memread, memwrite, memtoreg, branch,flush)
+BEGIN
+	IF (rising_edge(clock)) THEN
+		branch_res_mem &lt;= branch_res;
+		alu_res_mem &lt;= alu_res;
+		zero_mem &lt;= zero;
+		rd2_mem &lt;= rd2;
+		rw_mem &lt;= rw;
+		regwrite_mem &lt;= regwrite;
+		memread_mem &lt;= memread;
+		memwrite_mem &lt;= memwrite;
+		memtoreg_mem &lt;= memtoreg;
+		branch_mem &lt;= branch;
+	END IF;
+	IF(falling_edge(clock)) THEN 
+		IF (flush = '1') THEN
+			branch_res_o &lt;= branch_res;
+			alu_res_o &lt;= alu_res;
+			zero_o &lt;= zero;
+			rd2_o &lt;= rd2;
+			rw_o &lt;= rw;
+			regwrite_o &lt;= '0';
+			memread_o &lt;= '0';
+			memwrite_o &lt;= '0';
+			memtoreg_o &lt;= '0';
+			branch_o &lt;= "00";
+		ELSE
+			branch_res_o &lt;= branch_res_mem;
+			alu_res_o &lt;= alu_res_mem;
+			zero_o &lt;= zero_mem;
+			rw_o &lt;= rw_mem;
+			regwrite_o &lt;= regwrite_mem;
+			memread_o &lt;= memread_mem;
+			memwrite_o &lt;= memwrite_mem;
+			memtoreg_o &lt;= memtoreg_mem;
+			branch_o &lt;= branch_mem;
+			IF (rd2_mem = "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU") THEN
+				rd2_o &lt;= "00000000000000000000000000000000";
+			ELSE
+				rd2_o &lt;= rd2_mem;
+			END IF;
+		END IF;
+
+	END IF;
+END PROCESS;
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="MEM_WB">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY MEM_WB IS&#13;
+  PORT (&#13;
+
+    clock      : IN  std_logic;
+    rdm, alu_res        : IN  std_logic_vector(31 DOWNTO 0);
+    regwrite, memtoreg : IN std_logic;
+    rw : IN std_logic_vector (4 DOWNTO 0);
+    rdm_o, alu_res_o: OUT std_logic_vector (31 DOWNTO 0);
+    regwrite_o, memtoreg_o : OUT std_logic;
+    rw_o : OUT std_logic_vector (4 DOWNTO 0)
+    
+    );&#13;
+END MEM_WB;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF MEM_WB IS&#13;
+&#13;SIGNAL rdm_mem, alu_res_mem : std_logic_vector(31 DOWNTO 0);
+SIGNAL regwrite_mem, memtoreg_mem : std_logic;
+SIGNAL rw_mem : std_logic_vector (4 DOWNTO 0);
+BEGIN&#13;
+&#13;PROCESS (rdm, alu_res, regwrite, memtoreg, rw,clock)
+BEGIN
+IF (rising_edge(clock)) THEN 
+	rdm_mem &lt;= rdm;
+	alu_res_mem &lt;= alu_res;
+	regwrite_mem &lt;= regwrite;
+	memtoreg_mem &lt;= memtoreg;
+	rw_mem &lt;= rw;
+END IF;
+IF (falling_edge(clock)) THEN 
+	rdm_o &lt;= rdm_mem;
+	alu_res_o &lt;= alu_res_mem;
+	regwrite_o &lt;= regwrite_mem;
+	memtoreg_o &lt;= memtoreg_mem;
+	rw_o &lt;= rw_mem;
+&#13;END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="Reg_file">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+USE ieee.numeric_std.all;
+&#13;
+ENTITY Reg_file IS&#13;
+  PORT (&#13;
+    clock,write_e, reset      : IN  std_logic;
+    rd1a,rd2a,rwa,manual_address : IN std_logic_vector(4 DOWNTO 0);
+    rw : IN std_logic_vector (31 DOWNTO 0);
+
+    rd1,rd2, manual_value        : OUT std_logic_vector(31 DOWNTO 0)
+    );&#13;
+END Reg_file;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF Reg_file IS&#13;
+TYPE register_file is array(0 to 31) of std_logic_vector(31 DOWNTO 0);
+SIGNAL registers : register_file := 
+   ("00000000000000000000000000000000","00000000000000000000000000001000","00000000000000000000000000000010","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000001","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000");
+BEGIN&#13;
+process (clock, write_e, reset, registers, rd1a, rd2a, rwa, rw, manual_address)
+BEGIN
+manual_value &lt;= registers(to_integer(unsigned(manual_address)));
+IF (1 = 1) THEN
+	rd1 &lt;= registers(to_integer(unsigned(rd1a)));
+	rd2 &lt;= registers(to_integer(unsigned(rd2a)));
+	IF (write_e = '1' AND to_integer(unsigned(rwa)) /= 0) THEN --Can't write on register X0
+		registers(to_integer(unsigned(rwa))) &lt;= rw;
+	END IF;
+END IF;
+IF (reset = '1') THEN --Wipes all registers
+	registers &lt;= 
+   ("00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000001","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000",
+    "00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000");
+END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="Forwarding_unit">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY Forwarding_unit IS&#13;
+  PORT (&#13;
+    regwriteex,regwritemem    : IN  std_logic;
+    pcra1, pcra2, pcradex, pcradmem       : IN  std_logic_vector(4 DOWNTO 0);
+    fora,forb        : OUT std_logic_vector(1 DOWNTO 0) --00 register, 01 memory result, 10 alu result
+    );&#13;
+END Forwarding_unit;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF Forwarding_unit IS&#13;
+&#13;
+BEGIN&#13;
+&#13;process(regwriteex, regwritemem, pcra1, pcra2, pcradex, pcradmem)
+BEGIN
+fora &lt;= "00";
+forb &lt;= "00";
+IF (regwritemem = '1' AND pcradmem /= "00000") THEN
+	IF (pcra1 = pcradmem) THEN
+		fora &lt;= "01";
+	END IF;
+	IF (pcra2 = pcradmem AND pcradmem /= "00000") THEN
+		forb &lt;= "01";
+	END IF;
+END IF;
+IF (regwriteex = '1') THEN
+	IF (pcra1 = pcradex AND pcradex /=  "00000") THEN
+		fora &lt;= "10";
+	END IF;
+	IF (pcra2 = pcradex AND pcradex /= "00000") THEN
+		forb &lt;= "10";
+	END IF;
+END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="Hazard_unit">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY Hazard_unit IS&#13;
+  PORT (&#13;
+    idexmemread      : IN  std_logic;
+    rwa, rda1, rda2 : IN std_logic_vector(4 DOWNTO 0);
+    branch : IN std_logic;
+    pcwrite, ifidwrite, nop, flush : OUT std_logic
+    );&#13;
+END Hazard_unit;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF Hazard_unit IS&#13;
+&#13;
+BEGIN&#13;
+&#13;process (idexmemread, rwa, rda1, rda2,branch)
+BEGIN
+IF (idexmemread = '1') THEN
+	IF (rwa = rda1 OR rwa = rda2) THEN
+		pcwrite &lt;= '0';
+		ifidwrite &lt;= '0';
+		nop &lt;= '1';
+	ELSE
+		pcwrite &lt;= '1';
+		ifidwrite &lt;= '1';
+		nop &lt;= '0';
+	END IF;
+ELSE
+	pcwrite &lt;= '1';
+	ifidwrite &lt;= '1';
+	nop &lt;= '0';
+&#13;END IF;
+IF (branch = '1') THEN
+	flush &lt;= '1';
+ELSE
+	flush &lt;= '0';
+END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="RegAdress_Validator">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY RegAdress_Validator IS&#13;
+  PORT (&#13;
+
+    ra1,ra2     : IN  std_logic_vector(4 DOWNTO 0);
+    opcode        : IN  std_logic_vector(6 DOWNTO 0);
+    ra1_o,ra2_o        : OUT std_logic_vector(4 DOWNTO 0)
+    );&#13;
+END RegAdress_Validator;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF RegAdress_Validator IS&#13;
+&#13;
+BEGIN&#13;
+&#13;PROCESS (ra1,ra2,opcode)
+BEGIN 
+IF (opcode = "0110011" OR opcode = "0100011" OR opcode = "1100011" OR opcode = "0110000" OR opcode = "0110001" OR opcode = "0110010") THEN --Há reg 2 e reg 1
+	ra2_o &lt;= ra2;
+	ra1_o &lt;= ra1;
+ELSIF (opcode = "0000011" OR opcode = "0010011" OR opcode = "0010000" OR opcode = "0010001" OR opcode = "0010010") THEN --Só há reg 1
+	ra2_o &lt;= "00000";
+	ra1_o &lt;= ra1;
+ELSE --Não há nenhum reg
+	ra2_o &lt;= "00000";
+	ra1_o &lt;= "00000";
+END IF;
+&#13;END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+</project>
